@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jaineil's Junior Year HS Portfolio</title>
+   <link rel="stylesheet" href="style.css"> 
+   <link rel="icon" type="image/png" href="favicon.png">
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+
+</head>
+
+<body>
+   <header>
+
+
+           <h1 id="header_top"></h1>
+
+           
+           <div class="header-container">
+                <img src="/image/Logo.png" id="icon_img" alt="Icon" class="profile-image">
+                <div class="buttons-container">
+                <nav>
+                    <ul class="main-menu"  id="mainMenu" role="navigation" aria-label="Main Menu" method="GET" action="/search">
+
+
+                        <li>
+                            <button id="button1" class="button"><span class="button-icon">🏠</span> Home</button>
+                        </li>
+
+                        <li class="has-submenu">
+                            <button id="button2" href="#" class="button"><span class="button-icon">👤</span> Works</button>
+                
+
+                            <ul class="submenu">
+                                    <li><a href="#1" class="sub-button" id="minecraft_code" onClick="Click()">Minecraft Code</a></li>
+                                    <li><a href="#2" class="sub-button" id="python_code" onClick="Click()">Python Code</a></li>
+                                    <li><a href="#3" class="sub-button" id="javascript_code" onClick="Click()">Javascript Code</a></li>
+                                    <li><a href="#4" class="sub-button" id="scratch_code" onClick="Click()">Scratch Code</a></li>
+                                    <li><a href="#5" class="sub-button" id="Do_Nows" onClick="Click()">Do Nows</a></li>
+                                </ul>
+                            </li>
+
+
+                        <li class="has-submenu">
+                            <button id="button3" class="button"><span class="button-icon">💼</span> About</button>
+
+
+                            <ul class="submenu">
+                                <li><a href="#6" class="sub-button" id="portfolioLink" onClick="Click()">Portfolio</a></li>
+                                <li><a href="#7" class="sub-button" id="projects" onClick="Click()">Projects</a></li>
+                                <li><a href="#8" class="sub-button" id="ideas" onClick="Click()">Ideas</a></li>
+                                <li><a href="#9" class="sub-button" id="family_photos" onClick="Click()">Family Photos</a></li>
+                                <li><a href="#10" class="sub-button" id="gallery" onClick="Click()">Gallery</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="has-submenu">
+                            <button id="button4" class="button"><span class="button-icon">✉️</span> Contact</button>
+                            <ul class="submenu">
+                                <li><a href="#11" class="sub-button" id="email-form" onClick="Click()">Email Form</a></li>
+                                <li><a href="#12" class="sub-button" id="social-media" onClick="Click()">Social Media</a></li>
+                                <li><a href="#13" class="sub-button" id="location" onClick="Click()">Location</a></li>
+                                <li><a href="#14" class="sub-button" id="phone" onClick="Click()">Phone</a></li>
+                                <li><a href="#15" class="sub-button" id="address" onClick="Click()">Address</a></li>
+                            </ul>
+                        </li>
+
+
+                <!-- This is the HTML for the search bar. It's inside a form to handle submissions. -->
+                <div class="search-container">
+                    <form id="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+                        <input type="search" id="search-input" name="q" placeholder="Search Google...🔍" autocomplete="on">
+                        <button type="submit" id="search-button">Search</button>
+                    </form>
+                </div>
+                </ul>
+                </nav>
+
+                <div class="auth-buttons">
+                  
+                
+
+                <div class="container">
+                    <div id="form-container">
+                       
+                        <div class="button-group">
+                            <button onclick="renderForm('login')">Log In</button>
+                            <button onclick="renderForm('signup')">Sign Up</button>
+                        </div>
+                    </div>
+                    <div id="message-box" class="message-box"></div>
+                </div>
+
+                
+                </div>
+
+                
+
+
+
+                </div>
+           </div>
+        
+        
+
+    
+
+
+
+
+
+   </header>
+   <main>
+       <section id="homeSection" class="menu-section">
+           <h1 id="intro_txt">Welcome to my Portfolio Project!</h1>
+       </section>
+       <section id="aboutSection" class="menu-section" style="display:none;">
+           <h2>About Me</h2>
+           <p>This section contains information about me.</p>
+       </section>
+       <section id="projectsSection" class="menu-section" style="display:none;">
+           <h2>Projects</h2>
+           <p>This section showcases my projects.</p>
+       </section>
+
+       </section>
+       <section id="contactSection" class="menu-section" style="display:none;">
+           <h2>Contact</h2>
+           <p>This section provides my contact information.</p>
+       </section>
+
+
+     
+
+
+
+
+  
+       
+
+
+
+
+
+   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <main>
+        <div class="main-content-container">
+            <aside class="sidebar">
+                <div class="sidebar-handle">
+                    <div class="handle-line"></div>
+                    <div class="handle-line"></div>
+                    <div class="handle-line"></div>
+                </div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+                <div class="sidebar-item"></div>
+    
+            </aside>
+
+      <section class="content-grid">
+    <div class="grid-section top-section">
+        <div class="small-images-container">
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft1" src="/image/minecraft/minecraft1.jpg" alt="minecraft">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft2" src="/image/minecraft/minecraft2.jpg" alt="minecraft">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft3" src="/image/minecraft/minecraft3.jpg" alt="minecraft">
+                </div>
+                <div class="grid-item">
+                    <img  class="changeable-image" id="minecraft4" src="/image/minecraft/minecraft4.jpg" alt="minecraft">
+                </div>
+            </div>
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft5" src="/image/minecraft/minecraft5.jpg" alt="minecraft">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft6" src="/image/minecraft/minecraft6.jpg" alt="minecraft">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="minecraft7" src="/image/minecraft/minecraft7.jpg" alt="minecraft">
+                </div>
+            </div>
+        </div>
+        <div class="grid-item large-item">
+            <img class="changeable-image" id="minecraft8" src="/image/minecraft/minecraft8.jpg" alt="minecraft">
+        </div>
+    </div>
+    
+    <div class="grid-section middle-section">
+        <div class="grid-item large-item">
+            <img class="changeable-image" id="makecode1" src="/image/makecode/makecode1.jpg" alt="makecode">
+        </div>
+        <div class="small-images-container">
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode2" src="/image/makecode/makecode2.jpg" alt="makecode">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode3" src="/image/makecode/makecode3.jpg" alt="makecode">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode4" src="/image/makecode/makecode4.jpg" alt="makecode">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode5" src="/image/makecode/makecode5.jpg" alt="makecode">
+                </div>
+            </div>
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode6" src="/image/makecode/makecode6.jpg" alt="makecode">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode7" src="/image/makecode/makecode7.jpg" alt="makecode">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="makecode8" src="/image/makecode/makecode8.jpg" alt="makecode">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-section bottom-section">
+        <div class="small-images-container">
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img  class="changeable-image" id="roblox1" src="/image/roblox/roblox1.jpg" alt="roblox">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox2" src="/image/roblox/roblox2.jpg" alt="roblox">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox3" src="/image/roblox/roblox3.jpg" alt="roblox">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox4" src="/image/roblox/roblox4.jpg" alt="roblox">
+                </div>
+            </div>
+            <div class="vertical-stack-container">
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox5" src="/image/roblox/roblox5.jpg" alt="roblox">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox6" src="/image/roblox/roblox6.jpg" alt="roblox">
+                </div>
+                <div class="grid-item">
+                    <img class="changeable-image" id="roblox7" src="/image/roblox/roblox7.jpg" alt="roblox">
+                </div>
+            </div>
+        </div>
+        <div class="grid-item large-item">
+            <img class="changeable-image" id="roblox8" src="/image/roblox/roblox8.jpg" alt="roblox">
+        </div>
+    </div>
+    </section>
+<div class="arrow arrow-1">
+    <button class="button" onClick="changeImages('minecraft')">➡</button>
+</div>
+
+<div class="arrow arrow-2">
+    <button class="button" onClick="changeImages('makecode')">➡</button>
+</div> 
+            
+<div class="arrow arrow-3">
+    <button class="button" onClick="changeImages('roblox')">➡</button>
+</div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer>
+       <p id="footerText">&copy; 2024 Jaineil's Junior Year HS Portfolio</p>
+   </footer>
+   <script src="script.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
