@@ -24,12 +24,12 @@ function Click() {
 
     
          imageData = [
-            { src: "image/portfolio/booksRead.png", alt: "Books Read", txt: "Essentially, my absolute favorite type of genre is science fiction. I have read so many books over the past years during my journey in PCTVS highschool. I would sincerly like to thank the book club for making me enjoy reading once again!" },
-            { src: "image/portfolio/education.png", alt: "Education", txt: "Essentially, one of my favorite subject is mathematics. I have loved math all throughout my life. Anything that deals with STEM related pathways is the way to go!" },
-            { src: "image/portfolio/familyPhoto2.png", alt: "FamilyPhoto", txt:"These are some of the pictures I have for myself and my family."},
-            { src: "image/portfolio/favFood.png", alt: "Food", txt: "These are some of my favorite foods: Dosas, Samosas, Idli. I also love pizza and sweets!"},
-            { src: "image/portfolio/interests.png", alt: "Interests", txt: "I have so many interests. One of my favorite is coding!"},
-            { src: "image/portfolio/facts.png", alt: "Facts", txt: "I have listed some fun facts about myself. Feel free to read them."},
+            { src: "booksRead.png", alt: "Books Read", txt: "Essentially, my absolute favorite type of genre is science fiction. I have read so many books over the past years during my journey in PCTVS highschool. I would sincerly like to thank the book club for making me enjoy reading once again!" },
+            { src: "education.png", alt: "Education", txt: "Essentially, one of my favorite subject is mathematics. I have loved math all throughout my life. Anything that deals with STEM related pathways is the way to go!" },
+            { src: "familyPhoto2.png", alt: "FamilyPhoto", txt:"These are some of the pictures I have for myself and my family."},
+            { src: "favFood.png", alt: "Food", txt: "These are some of my favorite foods: Dosas, Samosas, Idli. I also love pizza and sweets!"},
+            { src: "interests.png", alt: "Interests", txt: "I have so many interests. One of my favorite is coding!"},
+            { src: "facts.png", alt: "Facts", txt: "I have listed some fun facts about myself. Feel free to read them."},
 
 
         ];
@@ -241,14 +241,14 @@ function Click() {
 
     else if (id=="Do_Nows") {
                  imageData = [
-                {src:"image/Do_Nows/Do_Nows6.png", alt:"Do_Nows", txt: "The description explains the three types of file types: PDFs, GIFs, and DOCs"},
-                {src:"image/Do_Nows/Do_Nows7.png", alt:"Do_Nows", txt: "The description talks about the types of hardware used such as the HDD, motherboard, the video card, the CPU, the ports, and the power supply that makes up the computer's components. "},
-                {src:"image/Do_Nows/Do_Nows3.png", alt:"Do_Nows", txt: "The description on the left explains that image compression compresses visual data by pulling out pixels and replicating them, however text compression removes all repeated characters and inserts a single character in its place."},
-                {src:"image/Do_Nows/Do_Nows4.png", alt:"Do_Nows", txt: "The description communicates about the DRY principle which stands for 'Do Not Repeat Yourself'. Essentially, this means that a person should not repeat the same exact code again and agaain."},
-                {src:"image/Do_Nows/Do_Nows1.png", alt:"Do_Nows" ,txt:"The description talks about the difference of coding envrionment, the binary system and the types of errors. The two types of coding environment are either block or manual code. The binary system are basically a multitude of binary number consisting of 0s and 1s. The types of errors are logic, runtime, synthax and overflow errors."},
-                {src:"image/Do_Nows/Do_Nows2.png", alt:"Do_Nows", txt: "The explanation on the left says that lossless data means that data is not loss, and all of it is stored but it is less compressible, but lossy data means some data is lost but it is more compressible."},
-                {src:"image/Do_Nows/Do_Nows5.png", alt:"Do_Nows", txt:"The explanation describes several examples of inputs such as tactile, audio and visual inputs as well as text."},
-                {src:"image/Do_Nows/Do_Nows8.png", alt:"Do_Nows", txt: "The explanation clarifies the types of operators used in computer science programming langauges such as Arithmetic operator, Assignment operator and Comparison operator."},]
+                {src:"Do_Nows6.png", alt:"Do_Nows", txt: "The description explains the three types of file types: PDFs, GIFs, and DOCs"},
+                {src:"Do_Nows7.png", alt:"Do_Nows", txt: "The description talks about the types of hardware used such as the HDD, motherboard, the video card, the CPU, the ports, and the power supply that makes up the computer's components. "},
+                {src:"Do_Nows3.png", alt:"Do_Nows", txt: "The description on the left explains that image compression compresses visual data by pulling out pixels and replicating them, however text compression removes all repeated characters and inserts a single character in its place."},
+                {src:"Do_Nows4.png", alt:"Do_Nows", txt: "The description communicates about the DRY principle which stands for 'Do Not Repeat Yourself'. Essentially, this means that a person should not repeat the same exact code again and agaain."},
+                {src:"Do_Nows1.png", alt:"Do_Nows" ,txt:"The description talks about the difference of coding envrionment, the binary system and the types of errors. The two types of coding environment are either block or manual code. The binary system are basically a multitude of binary number consisting of 0s and 1s. The types of errors are logic, runtime, synthax and overflow errors."},
+                {src:"Do_Nows2.png", alt:"Do_Nows", txt: "The explanation on the left says that lossless data means that data is not loss, and all of it is stored but it is less compressible, but lossy data means some data is lost but it is more compressible."},
+                {src:"Do_Nows5.png", alt:"Do_Nows", txt:"The explanation describes several examples of inputs such as tactile, audio and visual inputs as well as text."},
+                {src:"Do_Nows8.png", alt:"Do_Nows", txt: "The explanation clarifies the types of operators used in computer science programming langauges such as Arithmetic operator, Assignment operator and Comparison operator."},]
 
     }
 
