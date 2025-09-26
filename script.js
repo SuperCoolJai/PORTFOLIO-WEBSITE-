@@ -208,7 +208,7 @@ function Click() {
 
     else if (id=="javascript_code") {
                imageData = [
-                {src:"image/javascript_code/javascript_code8.png", alt:"javascript_code", txt:"The shopping cart function essentially adds an item into the cart. The item added is part of the school supplies and the the price is listed as well."},
+                {src:"javascript_code8.png", alt:"javascript_code", txt:"The shopping cart function essentially adds an item into the cart. The item added is part of the school supplies and the the price is listed as well."},
         
                 {src:"javascript_code2.png", alt:"javascript_code", txt:"Everytime a button is clicked, the sound is being played. The sound sounds like the click of a button."},
                 {src:"javascript_code3.png", alt:"javascript_code", txt:"The shopping cart function adds an item into the shopping cart. [The codespace was changed because it feels better to be using one that works better.]"},
