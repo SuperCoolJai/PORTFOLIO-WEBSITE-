@@ -419,7 +419,7 @@ function Click() {
 
 
     newpage.button.onclick = function() {
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     };
 
 
