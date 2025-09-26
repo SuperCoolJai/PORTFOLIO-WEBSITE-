@@ -42,13 +42,13 @@ function Click() {
 
     }    else if (id=="projects") {
         imageData = [
-            { src: "image/projects/art.jpg", alt: "Artworks", txt: "Throughout my life, I have drawn many artworks and they were amazing experiences! Drawing and doodling helped me when school stressed me out."},
-            { src: "image/projects/dreamland.png", alt: "Dreamland Project", txt: "This is the project that I have turned in for FBLA. I had lost but I also had gained valuable learning experience." },
-            { src: "image/projects/flowers.jpg", alt: "Flowers", txt:"I love to take picture of flowers and water them!"},
-            { src: "image/projects/lasangia.png", alt: "Lasangia", txt:"I helped my mom cook Lasangia"},
-            { src: "image/projects/minecraft.jpg", alt: "Minecraft", txt:"Rizwan and I have created many cool buildings in minecraft."},
-            { src: "image/projects/plants.jpg", alt: "Plants", txt: "I love watching the plants grow. I help my mother water them sometimes."},
-            { src: "image/projects/santa.jpg", alt: "Santa", txt: "I helped my father set up Santa Claus for christmas. Ho Ho Ho!"},
+            { src: "art.jpg", alt: "Artworks", txt: "Throughout my life, I have drawn many artworks and they were amazing experiences! Drawing and doodling helped me when school stressed me out."},
+            { src: "dreamland.png", alt: "Dreamland Project", txt: "This is the project that I have turned in for FBLA. I had lost but I also had gained valuable learning experience." },
+            { src: "flowers.jpg", alt: "Flowers", txt:"I love to take picture of flowers and water them!"},
+            { src: "lasangia.png", alt: "Lasangia", txt:"I helped my mom cook Lasangia"},
+            { src: "minecraft.jpg", alt: "Minecraft", txt:"Rizwan and I have created many cool buildings in minecraft."},
+            { src: "plants.jpg", alt: "Plants", txt: "I love watching the plants grow. I help my mother water them sometimes."},
+            { src: "santa.jpg", alt: "Santa", txt: "I helped my father set up Santa Claus for christmas. Ho Ho Ho!"},
         ];
 
 
@@ -57,14 +57,14 @@ function Click() {
    else if (id=="ideas") {
 
         imageData = [
-            { src: "image/ideas/AI.jpg", alt: "AI", txt: "One day, I want to help revolutize the world by creating robots that teach students effectivly! AI will make life easier for us!"},
-            { src: "image/ideas/chem.jpg", alt: "Chemistry", txt: "When I grow up, I want to do cool experiments in the lab."},
-            { src: "image/ideas/coding.webp", alt: "Coding", txt: "I like to code and I want to actually make a videogame when I'm older."},
-            { src: "image/ideas/cybersecurity.webp", alt: "Cyber", txt: "I was never really good at cybersecurity but I feel like I should know this at some point in my life." },
-            { src: "image/ideas/engineering.jpg", alt: "Engineering", txt: "I will do computer and electrical engineering in college." },
-            { src: "image/ideas/math.jpeg", alt: "Math", txt: "I want to be able to do more advance mathematics as I grow older."},
-            { src: "image/ideas/physics.jpg", alt: "Physics", txt: "I also want to be abel to do more advance physics problems as I prosper in the subject." },
-            { src: "image/ideas/smartGlasses.jpg", alt: "Glasses", txt: "I want to become a super-genius kid."},
+            { src: "AI.jpg", alt: "AI", txt: "One day, I want to help revolutize the world by creating robots that teach students effectivly! AI will make life easier for us!"},
+            { src: "chem.jpg", alt: "Chemistry", txt: "When I grow up, I want to do cool experiments in the lab."},
+            { src: "coding.webp", alt: "Coding", txt: "I like to code and I want to actually make a videogame when I'm older."},
+            { src: "cybersecurity.webp", alt: "Cyber", txt: "I was never really good at cybersecurity but I feel like I should know this at some point in my life." },
+            { src: "engineering.jpg", alt: "Engineering", txt: "I will do computer and electrical engineering in college." },
+            { src: "math.jpeg", alt: "Math", txt: "I want to be able to do more advance mathematics as I grow older."},
+            { src: "physics.jpg", alt: "Physics", txt: "I also want to be abel to do more advance physics problems as I prosper in the subject." },
+            { src: "smartGlasses.jpg", alt: "Glasses", txt: "I want to become a super-genius kid."},
         ];
 
    }
@@ -73,22 +73,22 @@ function Click() {
 
 
         imageData = [
-            { src: "image/gallery/books.jpg", alt: "books", txt:"Did I forget to mention I'm basically a speed-reader?" },
-            { src: "image/gallery/bugPhoto.jpg", alt: "bugs", txt:"My mission is to spot a new kind of bug evertime I go to the playground. I usually do that during the summer."},
-            { src: "image/gallery/calculator.jpg", alt: "calculator", txt:"I love doing math in my TI84 calculator." },
-            { src: "image/gallery/I_Must_Betray_You.jpg", alt: "book", txt: "This book is just like the book of 1984."},
-            { src: "image/gallery/icecream.jpg", alt: "Icecream", txt:"Butterscotch is such a good flavor. You should try some!"},
-            { src: "image/gallery/icepop.jpg", alt: "Icepop", txt:"I like icepop but they are not my favorite thing to eat." },
-            { src: "image/gallery/lemoncelloBooks.jpg", alt: "book", txt:"I used to read the lemoncello series and other books that talk about the power of books when I was yonger. Now, I like to read non-fiction or science-fiction." },
-            { src: "image/gallery/michigan_vs_the_boys.jpg", alt: "book", txt:"I may or may not have read the entire book of Michigan Vs The Boys but I should continue sometime."},
-            { src: "image/gallery/roboticDog.jpg", alt: "robotic_dog", txt: "In my freetime, I like to look at pictures at robots just like the robotic dog in PCTI."},
-            { src: "image/gallery/sky_dim.jpg", alt: "dim_sky", txt:"I like to take pictures of the dim sky!"},
-            { src: "image/gallery/sky_morning.jpg", alt: "morning_sky", txt:"I like to take pictures of the morning sky!"},
-            { src: "image/gallery/temple.jpg", alt: "temple", txt: "I pray everyday for the wellbeing of me and my family."},
-            { src: "image/gallery/train.jpg", alt: "train", txt: "I went to a subway museum and got a picture of the interior of a subway/train."},
-            { src: "image/gallery/trainModel.jpg", alt: "train_model", txt:"I got a picture of the train model."},
-            { src: "image/gallery/warcross.jpg", alt: "book", txt:"I have read the Warcross. This book is about a girl who tries to stop the neurolink from taking over the world."},
-            { src: "image/gallery/You've_Reached_Sam.jpg", alt: "book", txt:"This book was such an emotional one because the main character, a girl believes that her boyfriend still exist within this world but it is all an illusion."},
+            { src: "books.jpg", alt: "books", txt:"Did I forget to mention I'm basically a speed-reader?" },
+            { src: "bugPhoto.jpg", alt: "bugs", txt:"My mission is to spot a new kind of bug evertime I go to the playground. I usually do that during the summer."},
+            { src: "calculator.jpg", alt: "calculator", txt:"I love doing math in my TI84 calculator." },
+            { src: "I_Must_Betray_You.jpg", alt: "book", txt: "This book is just like the book of 1984."},
+            { src: "icecream.jpg", alt: "Icecream", txt:"Butterscotch is such a good flavor. You should try some!"},
+            { src: "icepop.jpg", alt: "Icepop", txt:"I like icepop but they are not my favorite thing to eat." },
+            { src: "lemoncelloBooks.jpg", alt: "book", txt:"I used to read the lemoncello series and other books that talk about the power of books when I was yonger. Now, I like to read non-fiction or science-fiction." },
+            { src: "michigan_vs_the_boys.jpg", alt: "book", txt:"I may or may not have read the entire book of Michigan Vs The Boys but I should continue sometime."},
+            { src: "roboticDog.jpg", alt: "robotic_dog", txt: "In my freetime, I like to look at pictures at robots just like the robotic dog in PCTI."},
+            { src: "sky_dim.jpg", alt: "dim_sky", txt:"I like to take pictures of the dim sky!"},
+            { src: "sky_morning.jpg", alt: "morning_sky", txt:"I like to take pictures of the morning sky!"},
+            { src: "temple.jpg", alt: "temple", txt: "I pray everyday for the wellbeing of me and my family."},
+            { src: "train.jpg", alt: "train", txt: "I went to a subway museum and got a picture of the interior of a subway/train."},
+            { src: "trainModel.jpg", alt: "train_model", txt:"I got a picture of the train model."},
+            { src: "warcross.jpg", alt: "book", txt:"I have read the Warcross. This book is about a girl who tries to stop the neurolink from taking over the world."},
+            { src: "You've_Reached_Sam.jpg", alt: "book", txt:"This book was such an emotional one because the main character, a girl believes that her boyfriend still exist within this world but it is all an illusion."},
 
 
 
@@ -106,8 +106,8 @@ function Click() {
 
           imageData = [
 
-            { src: "image/family_photos/photo.jpg", alt: "Photo", txt: "Well this is me!"},
-            { src: "image/family_photos/familyPhoto.jpg", alt: "FamilyPhoto" , txt: "This is my family!"}]
+            { src: "photo.jpg", alt: "Photo", txt: "Well this is me!"},
+            { src: "familyPhoto.jpg", alt: "FamilyPhoto" , txt: "This is my family!"}]
 
 
 
@@ -120,7 +120,7 @@ function Click() {
         newpage.document.write('<h2>"Email:"</h2>')
         newpage.document.write('<h3>"jaineil32624@gmail.com"</h3>')
         newpage.document.write('<h3>"270629@pcti.mobi"</h3>')
-        imageData = [{src:"image/email/email_me.jpg", alt:"Discord", txt:"Email me at: jaineil32624@gmail.com, or 270629@pcti.mobi if you guys have any questions."}];
+        imageData = [{src:"email_me.jpg", alt:"Discord", txt:"Email me at: jaineil32624@gmail.com, or 270629@pcti.mobi if you guys have any questions."}];
     }
 
 
@@ -129,8 +129,8 @@ function Click() {
         newpage.document.write('<h3>"Atomicwaves"</h3>')
         newpage.document.write('<h3>"Jaineil Rana"</h3>')
         imageData = [
-                {src:"image/social_media/discord.png", alt:"Discord", txt:"Discord Account: Atomicwaves"},
-                {src:"image/social_media/instagram.png", alt:"Instagram", txt:"Social Media: Jaineil Rana"},
+                {src:"discord.png", alt:"Discord", txt:"Discord Account: Atomicwaves"},
+                {src:"instagram.png", alt:"Instagram", txt:"Social Media: Jaineil Rana"},
         ];
 
     }
@@ -140,7 +140,7 @@ function Click() {
         newpage.document.write('<h3>"New Jersy"</h3>')
         newpage.document.write('<h3>"Passaic"</h3>')
         imageData = [
-                {src:"image/location/nj.png", alt:"NJ", txt: "I am from New Jersy, Passaic City."},
+                {src:"nj.png", alt:"NJ", txt: "I am from New Jersy, Passaic City."},
         ];
 
 
@@ -151,7 +151,7 @@ function Click() {
         newpage.document.write('<h2>"862-571-8021"</h2>')
         newpage.document.write('<h2>"862-571-3328"</h2>')
         imageData = [
-                {src:"image/phone/call_me.png", alt:"NJ", txt: "If you ever need to call, here are the phone-numbers: 862-571-8021 and 862-571-3328"},
+                {src:"call_me.png", alt:"NJ", txt: "If you ever need to call, here are the phone-numbers: 862-571-8021 and 862-571-3328"},
         ];
         
     }
@@ -159,20 +159,20 @@ function Click() {
     else if (id=="address") {
         newpage.document.write('<h2>"Home Address is not shown due to specific reasons!:"</h2>')
         imageData = [
-                {src:"image/location/nj.png", alt:"NJ", txt:"Sorry, I cannot reveal my specific locations due to privacy reasons!"},
+                {src:"nj.png", alt:"NJ", txt:"Sorry, I cannot reveal my specific locations due to privacy reasons!"},
         ];
     }
 
     else if (id=="python_code") {
                imageData = [
-                {src:"image/python_code/python_code8.png", alt:"python_code", txt: "The code output accumulates the total price based on several factors about the user."},
-                {src:"image/python_code/python_code5.png", alt:"python_code", txt: "The code output displays information about the solarclips that had happened throughout the years."},
-                {src:"image/python_code/python_code6.png", alt:"python_code", txt: "The user is able to perform mathematical calculation using this simple calcualtor code."},
-                {src:"image/python_code/python_code7.png", alt:"python_code", txt: "The program asks the user simple questions like the number of credits taken at the college and at the end, it displays the total price."},
-                {src:"image/python_code/python_code1.png", alt:"python_code", txt: "When executed, the output displays the game results in terms of several aspect about the matches."},
-                {src:"image/python_code/python_code2.png", alt:"python_code", txt: "The story based game is about a man trying to live is normal life through work and helpings others but he has to make the right choices."},
-                {src:"image/python_code/python_code3.png", alt:"python_code", txt: "The story based game is about battling aliens that will destroy the world."},
-                {src:"image/python_code/python_code4.png", alt:"python_code", txt: "The restaurant project is essentially about ordering food items on the menu and recieving the dishes and the total price."},
+                {src:"python_code8.png", alt:"python_code", txt: "The code output accumulates the total price based on several factors about the user."},
+                {src:"python_code5.png", alt:"python_code", txt: "The code output displays information about the solarclips that had happened throughout the years."},
+                {src:"python_code6.png", alt:"python_code", txt: "The user is able to perform mathematical calculation using this simple calcualtor code."},
+                {src:"python_code7.png", alt:"python_code", txt: "The program asks the user simple questions like the number of credits taken at the college and at the end, it displays the total price."},
+                {src:"python_code1.png", alt:"python_code", txt: "When executed, the output displays the game results in terms of several aspect about the matches."},
+                {src:"python_code2.png", alt:"python_code", txt: "The story based game is about a man trying to live is normal life through work and helpings others but he has to make the right choices."},
+                {src:"python_code3.png", alt:"python_code", txt: "The story based game is about battling aliens that will destroy the world."},
+                {src:"python_code4.png", alt:"python_code", txt: "The restaurant project is essentially about ordering food items on the menu and recieving the dishes and the total price."},
           
 
         ];
@@ -180,28 +180,28 @@ function Click() {
 
     else if (id=="minecraft_code") {
                imageData = [
-                {src:"image/minecraft_code/minecraft_code3.png", alt:"minecraft_code" ,txt:"The code on the left changes the arrow count by 1 and then later shrinks the number of arrows available in the inventory. Essentially, each time, the number of arrow shots gets incremented when the bow shoots an arrow by the player."},
-                {src:"image/minecraft_code/minecraft_code4.png", alt:"minecraft_code" ,txt:"When the user types in 'chicken' in the minecraft chat box, a specific egg gets spawned 100 times. "},
-                {src:"image/minecraft_code/minecraft_code6.png", alt:"minecraft_code" ,txt: "When a piece of specific block is broken, an animal is spawned in the location specified."},
-                {src:"image/minecraft_code/minecraft_code8.png", alt:"minecraft_code" ,txt: "When the user types in 'name' into the chatbox, the function gets called and execute the name a specified number of times. In this case, it is 10 times. "},
-                {src:"image/minecraft_code/minecraft_code2.png", alt:"minecraft_code" ,txt: "The code essentially adds blcok to a random relative location close to the player a specified number a times when the command 'PrintBlocks' is executed. "},
-                {src:"image/minecraft_code/minecraft_code5.png", alt:"minecraft_code" ,txt: "The player essentially dances by moving around in a loop when the command 'dance' is executed." },
-                {src:"image/minecraft_code/minecraft_code7.png", alt:"minecraft_code", txt: "When the command 'mix' is executed, the code prints a sentence full of grammar."},
-                {src:"image/minecraft_code/minecraft_code1.png", alt:"minecraft_code", txt: "The code generates random animals when the player types in 'Animal_Spawn'."},
+                {src:"minecraft_code3.png", alt:"minecraft_code" ,txt:"The code on the left changes the arrow count by 1 and then later shrinks the number of arrows available in the inventory. Essentially, each time, the number of arrow shots gets incremented when the bow shoots an arrow by the player."},
+                {src:"minecraft_code4.png", alt:"minecraft_code" ,txt:"When the user types in 'chicken' in the minecraft chat box, a specific egg gets spawned 100 times. "},
+                {src:"minecraft_code6.png", alt:"minecraft_code" ,txt: "When a piece of specific block is broken, an animal is spawned in the location specified."},
+                {src:"minecraft_code8.png", alt:"minecraft_code" ,txt: "When the user types in 'name' into the chatbox, the function gets called and execute the name a specified number of times. In this case, it is 10 times. "},
+                {src:"minecraft_code2.png", alt:"minecraft_code" ,txt: "The code essentially adds blcok to a random relative location close to the player a specified number a times when the command 'PrintBlocks' is executed. "},
+                {src:"minecraft_code5.png", alt:"minecraft_code" ,txt: "The player essentially dances by moving around in a loop when the command 'dance' is executed." },
+                {src:"minecraft_code7.png", alt:"minecraft_code", txt: "When the command 'mix' is executed, the code prints a sentence full of grammar."},
+                {src:"minecraft_code1.png", alt:"minecraft_code", txt: "The code generates random animals when the player types in 'Animal_Spawn'."},
 
         ];
     }
 
     else if (id=="scratch_code") {
                imageData = [
-                {src:"image/scratch_code/scratch_code2.png", alt:"scratch_code" ,txt: "If the button 'restart' is clicked, then the code will restart and make a new whirly image on the screen."},
-                {src:"image/scratch_code/scratch_code1.png", alt:"scratch_code", txt:"The code detects the mouse pointer and records its movement and plays it in the reverse manner when needed."},
-                {src:"image/scratch_code/scratch_code3.png", alt:"scratch_code",txt:"The player gets some physics attribute based on gravity and gains movement detection. The function allows the player to move around on the platform essentially."},
-                {src:"image/scratch_code/scratch_code8.png", alt:"scratch_code", txt:"The player moves in a scrolling platform, in which the background moves to accomdate the player's movement. Essentially, it feels like the screen is moving according to where the player is which makes the game more dynamic and free. "},
-                {src:"image/scratch_code/scratch_code4.png", alt:"scratch_code", txt: "Santa Clause is given the ability to fly and drop presents that are actually disguised present bombs."},
-                {src:"image/scratch_code/scratch_code5.png", alt:"scratch_code", txt: "When the chocolate clicker is clicked, the user gains points relative to their upgrade paths."},
-                {src:"image/scratch_code/scratch_code7.png", alt:"scratch_code", txt: "The player is given physical dynamics that allows it to move around and jump."},
-                {src:"image/scratch_code/scratch_code6.png", alt:"scratch_code", txt: "When the gun is upgraded, it shoots more powerful bullets which further decrements the pirates health."},
+                {src:"scratch_code2.png", alt:"scratch_code" ,txt: "If the button 'restart' is clicked, then the code will restart and make a new whirly image on the screen."},
+                {src:"scratch_code1.png", alt:"scratch_code", txt:"The code detects the mouse pointer and records its movement and plays it in the reverse manner when needed."},
+                {src:"scratch_code3.png", alt:"scratch_code",txt:"The player gets some physics attribute based on gravity and gains movement detection. The function allows the player to move around on the platform essentially."},
+                {src:"scratch_code8.png", alt:"scratch_code", txt:"The player moves in a scrolling platform, in which the background moves to accomdate the player's movement. Essentially, it feels like the screen is moving according to where the player is which makes the game more dynamic and free. "},
+                {src:"scratch_code4.png", alt:"scratch_code", txt: "Santa Clause is given the ability to fly and drop presents that are actually disguised present bombs."},
+                {src:"scratch_code5.png", alt:"scratch_code", txt: "When the chocolate clicker is clicked, the user gains points relative to their upgrade paths."},
+                {src:"scratch_code7.png", alt:"scratch_code", txt: "The player is given physical dynamics that allows it to move around and jump."},
+                {src:"scratch_code6.png", alt:"scratch_code", txt: "When the gun is upgraded, it shoots more powerful bullets which further decrements the pirates health."},
 
         ];
     }
@@ -210,13 +210,13 @@ function Click() {
                imageData = [
                 {src:"image/javascript_code/javascript_code8.png", alt:"javascript_code", txt:"The shopping cart function essentially adds an item into the cart. The item added is part of the school supplies and the the price is listed as well."},
         
-                {src:"image/javascript_code/javascript_code2.png", alt:"javascript_code", txt:"Everytime a button is clicked, the sound is being played. The sound sounds like the click of a button."},
-                {src:"image/javascript_code/javascript_code3.png", alt:"javascript_code", txt:"The shopping cart function adds an item into the shopping cart. [The codespace was changed because it feels better to be using one that works better.]"},
-                {src:"image/javascript_code/javascript_code5.png", alt:"javascript_code", txt:"The background of the image becomes more colorful as if it feels smoother. "},
-                {src:"image/javascript_code/javascript_code6.png", alt:"javascript_code" , txt: "The button changes affects when it is hovered versus when it is not hovered."},
-                {src:"image/javascript_code/javascript_code7.png", alt:"javascript_code", txt: "The code displays a sign up page as well as a log in page. User will have to make an account before logging in."},
-                {src:"image/javascript_code/javascript_code4.png", alt:"javascript_code", txt: "The code displays several items that could be added into the shopping cart."},
-                {src:"image/javascript_code/javascript_code1.png", alt:"javascript_code", txt: "The confeddi functions allows the confeddi to show up and appear as a surprise effect."},
+                {src:"javascript_code2.png", alt:"javascript_code", txt:"Everytime a button is clicked, the sound is being played. The sound sounds like the click of a button."},
+                {src:"javascript_code3.png", alt:"javascript_code", txt:"The shopping cart function adds an item into the shopping cart. [The codespace was changed because it feels better to be using one that works better.]"},
+                {src:"javascript_code5.png", alt:"javascript_code", txt:"The background of the image becomes more colorful as if it feels smoother. "},
+                {src:"javascript_code6.png", alt:"javascript_code" , txt: "The button changes affects when it is hovered versus when it is not hovered."},
+                {src:"javascript_code7.png", alt:"javascript_code", txt: "The code displays a sign up page as well as a log in page. User will have to make an account before logging in."},
+                {src:"javascript_code4.png", alt:"javascript_code", txt: "The code displays several items that could be added into the shopping cart."},
+                {src:"javascript_code1.png", alt:"javascript_code", txt: "The confeddi functions allows the confeddi to show up and appear as a surprise effect."},
 
         ];
     }
@@ -226,14 +226,14 @@ function Click() {
 
     else if (id=="makecode") {
                imageData = [
-                {src:"image/makecode/makecode1.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode2.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode3.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode4.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode5.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode6.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode7.jpg", alt:"makecode"},
-                {src:"image/makecode/makecode8.jpg", alt:"makecode"},
+                {src:"makecode1.jpg", alt:"makecode"},
+                {src:"makecode2.jpg", alt:"makecode"},
+                {src:"makecode3.jpg", alt:"makecode"},
+                {src:"makecode4.jpg", alt:"makecode"},
+                {src:"makecode5.jpg", alt:"makecode"},
+                {src:"makecode6.jpg", alt:"makecode"},
+                {src:"makecode7.jpg", alt:"makecode"},
+                {src:"makecode8.jpg", alt:"makecode"},
 
         ];
 
@@ -439,17 +439,17 @@ function Click() {
 
 const imageSets = {
     minecraft: [
-        ['/image/minecraft/minecraft1.jpg', '/image/minecraft/minecraft2.jpg', '/image/minecraft/minecraft3.jpg', '/image/minecraft/minecraft4.jpg', '/image/minecraft/minecraft5.jpg', '/image/minecraft/minecraft6.jpg', '/image/minecraft/minecraft7.jpg', '/image/minecraft/minecraft8.jpg'],
-        ['/image/minecraft/minecraft9.jpg', '/image/minecraft/minecraft10.jpg', '/image/minecraft/minecraft11.jpg', '/image/minecraft/minecraft12.jpg', '/image/minecraft/minecraft13.jpg', '/image/minecraft/minecraft14.jpg', '/image/minecraft/minecraft15.jpg', '/image/minecraft/minecraft16.jpg']
+        ['minecraft1.jpg', 'minecraft2.jpg', 'minecraft3.jpg', 'minecraft4.jpg', 'minecraft5.jpg', 'minecraft6.jpg', 'minecraft7.jpg', 'minecraft8.jpg'],
+        ['minecraft9.jpg', 'minecraft10.jpg', 'minecraft11.jpg', 'minecraft12.jpg', 'minecraft13.jpg', 'minecraft14.jpg', 'minecraft15.jpg', 'minecraft16.jpg']
     ],
     makecode: [
-        ['/image/makecode/makecode1.jpg', '/image/makecode/makecode2.jpg', '/image/makecode/makecode3.jpg', '/image/makecode/makecode4.jpg', '/image/makecode/makecode5.jpg', '/image/makecode/makecode6.jpg', '/image/makecode/makecode7.jpg', '/image/makecode/makecode8.jpg'],
-        ['/image/unity/unity8.jpg', '/image/unity/unity2.jpg', '/image/unity/unity3.jpg', '/image/unity/unity4.jpg', '/image/unity/unity5.jpg', '/image/unity/unity6.jpg', '/image/unity/unity7.jpg', '/image/unity/unity1.jpg',],
-        ['/image/scratch/scratch1.jpg', '/image/scratch/scratch2.jpg','/image/scratch/scratch3.jpg','/image/scratch/scratch4.jpg','/image/scratch/scratch5.jpg','/image/scratch/scratch6.jpg','/image/scratch/scratch7.jpg', '/image/scratch/scratch8.jpg',]
+        ['makecode1.jpg', 'makecode2.jpg', 'makecode3.jpg', 'makecode4.jpg', 'makecode5.jpg', 'makecode6.jpg', 'makecode7.jpg', 'makecode8.jpg'],
+        ['unity8.jpg', 'unity2.jpg', 'unity3.jpg', 'unity4.jpg', 'unity5.jpg', 'unity6.jpg', 'unity7.jpg', 'unity1.jpg',],
+        ['scratch1.jpg', 'scratch2.jpg','scratch3.jpg','scratch4.jpg','scratch5.jpg','scratch6.jpg','scratch7.jpg', 'scratch8.jpg',]
     ],
     roblox: [
-        ['/image/roblox/roblox1.jpg', '/image/roblox/roblox2.jpg', '/image/roblox/roblox3.jpg', '/image/roblox/roblox4.jpg', '/image/roblox/roblox5.jpg', '/image/roblox/roblox6.jpg', '/image/roblox/roblox7.jpg', '/image/roblox/roblox8.jpg'],
-        ['/image/roblox/roblox9.jpg', '/image/roblox/roblox10.jpg', '/image/roblox/roblox16.jpg', '/image/roblox/roblox12.jpg', '/image/roblox/roblox13.jpg', '/image/roblox/roblox14.jpg', '/image/roblox/roblox15.jpg', '/image/roblox/roblox11.jpg']
+        ['roblox1.jpg', 'roblox2.jpg', 'roblox3.jpg', 'roblox4.jpg', 'roblox5.jpg', 'roblox6.jpg', 'roblox7.jpg', 'roblox8.jpg'],
+        ['roblox9.jpg', 'roblox10.jpg', 'roblox16.jpg', 'roblox12.jpg', 'roblox13.jpg', 'roblox14.jpg', 'roblox15.jpg', 'roblox11.jpg']
     ]
 };
 
